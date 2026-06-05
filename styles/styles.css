@@ -1,6 +1,6 @@
 *{
-    margin: 0;
-    padding: 0;
+    /* margin: 0; */
+    /* padding: 0; */
 }
 
 /* shared styles */
@@ -40,15 +40,17 @@ header{
 
 }
 body{
-    /* max-width: 1320px; */
-    /* margin: 0 auto; */
+    max-width: 1320px;
+    width:100%;
+    margin: 0 auto;
     
-    background-color: rgba(135, 236, 250, 0.118);
+    background-color: rgba(148, 172, 229, 0.118);
     /* background-color: rgba(173, 230, 228, 0.182); */
 }
 .nav-logo-btn{
     display:flex;
     justify-content:space-between;
+    align-items:center;
 }
 
 .hero{
@@ -73,21 +75,25 @@ body{
 /* styles for action section */
 .action{
     max-width:1320px;
-    width: 100%;
-    padding: 100px;
+    width: 80%;
+    /* padding: 100px; */
+    margin: 50px auto;
     display:flex;
     justify-content: space-between;
     align-items: center;
 }
 .action-content{
-    width:30%;
+    width:40%;
     /* padding: 20px; */
+    margin-left: 0;
+    padding-left:0;
 }
 .action-content > * {
     margin-top: 20px;
 }
-.action-image{
-    width: 30%;
+.action-image img{
+    /* width: 100%;
+    height: 200px; */
 }
 .action-image img{
     border-radius: 48px;
@@ -190,3 +196,13 @@ margin: 10px;
     color:rgba(0, 0, 0, 0.5);
 }
 /* styles for form section */
+.form-section{
+    display:flex;
+    justify-content: space-around;
+}
+.actual-form{
+    max-width:300px;
+    display:flex;
+    flex-direction: column;
+    width:100%;
+}
